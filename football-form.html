@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="football_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lexend:wght@100..900&family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <div class="wrapper">
+       <form id="football-form" action="">
+        <h1>FOOTBALL TEAM REGISTRATION FORM</h1>
+        <div class="input-box">
+            <label for="team">Enter Team Name</label>
+            <input type="text" name="team" required><br>
+        </div>
+        <div class="input-box">
+            <label for="school">Enter the School Name</label>
+            <input type="text" name="school" required><br>
+        </div>
+        <div class="input-box">
+            <label for="team">Enter the name of the Team Captain</label>
+            <input type="text" name="captain" required>
+        </div>
+        <div class="input-box">
+            <label for="team">Enter the name of the Team Members</label>
+            <textarea name="members" id="members" cols="20" rows="10"></textarea>
+        </div>
+        <label for="team">Specify the team</label>
+        <div class="input-box">
+            <input type="radio" id="male" name="team" value="male">
+            <label for="male">BOYS</label>
+            <input type="radio" id="female" name="team" value="female">
+            <label for="female">GIRLS</label>
+        </div>
+
+        <div class="input-box">
+            <label for="number">Enter the contact number of the Team Captain</label>
+            <input type="number" name="contact" required>
+        </div>
+
+        <div class="input-box">
+            <label for="email">Enter     email <address></address></label>
+            <input type="email" name="contact" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+        </div>
+        <div class="input-box">
+            <input type="submit" name="submit" value="Submit">
+        </div>
+       </form> 
+    </div>
+</body>
+</html>

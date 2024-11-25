@@ -1,0 +1,39 @@
+*{
+    margin: 2px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: "Lexend", sans-serif;
+    background-image: 'football_bg.jpg';
+}
+body{
+    background-image: url('bg.jpg');
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+.football-form{
+    align-items: center;
+}
+.wrapper{
+    width: 600px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: #fff;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+
+.input-box input, textarea{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+  }
